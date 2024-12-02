@@ -11,10 +11,7 @@
     padding: 20;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     }
-    h1,
-    h2,
-    h3,
-    {
+    h1,h2,h3,{
     color: #000;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -57,8 +54,8 @@
     </form>
         <?php
         // DB connection info
-        // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrieved
-        earlier from the Azure Portal. $host = "value of Data Source";
+        // TODO: Update the values for $host, $user, $pwd, and $db //using the values you retrievedearlier from the Azure Portal. 
+        $host = "value of Data Source";
         $host = "jtlv-server.mysql.database.azure.com";
         $user = "bzedgnewig";
         $pwd = "thrhqbeTy$n8uzM8";
